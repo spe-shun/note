@@ -155,14 +155,14 @@ npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
 yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
 
 # TS 语言部分
-npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript
+npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 # or
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 
 # ALL
-npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript
+npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 # or
-yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript
+yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 
 ```
 
@@ -246,9 +246,9 @@ npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
 yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
 
 # TS 语言部分
-npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript
+npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 # or
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 
 # react 部分
 npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
@@ -256,9 +256,9 @@ npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
 yarn add -D eslint-plugin-react eslint-plugin-react-hooks
 
 # ALL
-npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript eslint-plugin-react eslint-plugin-react-hooks
+npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript eslint-plugin-react eslint-plugin-react-hooks
 # or
-yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/perser typescript eslint-plugin-react eslint-plugin-react-hooks
+yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 - 配置
