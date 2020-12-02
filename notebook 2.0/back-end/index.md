@@ -1,5 +1,0 @@
--   hive
--   kafka
-    -   https://zh.wikipedia.org/wiki/Kafka
--   redis
-    -   https://zh.wikipedia.org/wiki/Redis

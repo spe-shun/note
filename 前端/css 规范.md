@@ -151,11 +151,11 @@ Bem 是块（block）、元素（element）、修饰符（modifier）的简写�
 
 **BLOCK** 可以挪窝，可以复用
 
-![bem](./bem.png)
+![bem](./asset/bem.png)
 
 **ELEMENT** BLOCK 的一部分
 
-![ele](./element.png)
+![ele](./asset/element.png)
 
 **MODIFIER** 修饰及状态，修饰符本质上类似于 HTML 属性
 
