@@ -2,17 +2,17 @@
 
 ## eslint
 
-- 安装
+* 安装
 
-```shell
+```text
 npm install --save-dev eslint
 # or
 yarn add -D eslint
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 // .eslintrc.js
 module.exports = {
     env: {
@@ -30,13 +30,13 @@ module.exports = {
 
 ## eslint + standard
 
-eslint 提供一套基于 standard 的格式化规范，具体可查看<https://standardjs.com/>，其团队也提供一个叫 [standard](https://www.npmjs.com/package/standard) 的工具，但是在我看来还是配合 vscode + eslint 食用更加
+eslint 提供一套基于 standard 的格式化规范，具体可查看[https://standardjs.com/](https://standardjs.com/)，其团队也提供一个叫 [standard](https://www.npmjs.com/package/standard) 的工具，但是在我看来还是配合 vscode + eslint 食用更加
 
 **建议和 prettier & eslint 二选一**
 
-- 安装
+* 安装
 
-```shell
+```text
 # eslint 部分
 npm install --save-dev eslint
 # or
@@ -48,9 +48,9 @@ npm install --save-dev eslint eslint-config-standard eslint-plugin-standard esli
 yarn add -D eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 // .eslintrc.js
 module.exports = {
     env: {
@@ -72,10 +72,11 @@ prettier 和 eslint 配合食用，强迫症很舒服
 
 **建议和 standard 二选一**
 
-- [prettier 配置](https://prettier.io/docs/en/options.html)
+* [prettier 配置](https://prettier.io/docs/en/options.html)
 
 这是我个人比较喜欢的配置，按照描述自己配置就好，每次翻文档好累，直接在这按照描述改就好~
-```js
+
+```javascript
 // .prettierrc.js
 module.exports = {
     // 换行列数 <int>
@@ -108,9 +109,9 @@ module.exports = {
 }
 ```
 
-- 安装
+* 安装
 
-```shell
+```text
 # eslint 部分
 npm install --save-dev eslint
 # or
@@ -122,9 +123,9 @@ npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
 yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 module.exports = {
     env: {
         browser: true,
@@ -141,9 +142,9 @@ module.exports = {
 
 ## eslint + prettier + typescript
 
-- 安装
+* 安装
 
-```shell
+```text
 # eslint 部分
 npm install --save-dev eslint
 # or
@@ -163,12 +164,11 @@ yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser typescrip
 npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 # or
 yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
-
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 module.exports = {
     env: {
         browser: true,
@@ -187,9 +187,9 @@ module.exports = {
 
 ## eslint + prettier + react
 
-- 安装
+* 安装
 
-```shell
+```text
 # eslint 部分
 npm install --save-dev eslint
 # or
@@ -211,9 +211,9 @@ npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-pret
 yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 module.exports = {
     env: {
         browser: true,
@@ -228,13 +228,11 @@ module.exports = {
 }
 ```
 
-
-
 ## eslint + prettier + react + typescript
 
-- 安装
+* 安装
 
-```shell
+```text
 # eslint 部分
 npm install --save-dev eslint
 # or
@@ -261,9 +259,9 @@ npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-pret
 yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript eslint-plugin-react eslint-plugin-react-hooks
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 module.exports = {
     env: {
         browser: true,
@@ -286,11 +284,11 @@ module.exports = {
 }
 ```
 
-## eslint + prettier + vue (待定)
+## eslint + prettier + vue \(待定\)
 
-- 安装
+* 安装
 
-```shell
+```text
 # eslint 部分
 npm install --save-dev eslint
 # or
@@ -312,9 +310,9 @@ npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-pret
 yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-vue
 ```
 
-- 配置
+* 配置
 
-```js
+```javascript
 module.exports = {
     env: {
         browser: true,
@@ -331,3 +329,4 @@ module.exports = {
     },
 }
 ```
+
