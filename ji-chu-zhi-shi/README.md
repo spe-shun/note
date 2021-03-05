@@ -4,5 +4,7 @@ description: description
 
 # 基础知识
 
-new lin for folder
+{% page-ref page="wang-luo-xie-yi.md" %}
+
+
 
