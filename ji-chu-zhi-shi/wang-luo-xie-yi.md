@@ -1,4 +1,4 @@
-# 网络协议
+# 网络协议 & 示例
 
 ![network](../.gitbook/assets/network.png)
 
@@ -83,6 +83,10 @@ Date: Wed, 06 May 2020 03:52:23 GMT
   * 这是一个复用协议。并行的请求能在同一个链接中处理，移除了 HTTP/1.x 中顺序和阻塞的约束。
   * 压缩了 headers。因为 headers 在一系列请求中常常是相似的，其移除了重复和传输重复数据的成本。
   * 其允许服务器在客户端缓存中填充数据，通过一个叫服务器推送的机制来提前请求。
+* **http/3**
+  * [https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Alt-Svc](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Alt-Svc)
+  * 参考文档 wiki [https://en.wikipedia.org/wiki/HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)
+  * usage [https://blog.cloudflare.com/http3-the-past-present-and-future/](https://blog.cloudflare.com/http3-the-past-present-and-future/)
 
 ### [请求方式](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Methods)
 
