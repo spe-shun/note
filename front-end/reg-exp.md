@@ -1,8 +1,8 @@
 # 正则匹配
 
-## JS 正则表达式的使用
+## 创建 & 使用
 
-### regexp 对象
+### [Regexp 对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 
 ```javascript
 let reg = /RegExpress/flags;
@@ -26,7 +26,7 @@ flags: `global ignoreCase multiline lastIndex source sticky`
 * `test()` 方法执行一个检索，用来查看正则表达式与指定的字符串是否匹配。返回 true 或 false。
 * `toString()` 字符串
 
-### string 对象
+### [String 对象](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)的正则方法
 
 #### 方法
 
@@ -35,6 +35,8 @@ flags: `global ignoreCase multiline lastIndex source sticky`
 * `replace(/RegExpress/flags)` 方法返回一个由替换值（replacement）替换一些或所有匹配的模式（pattern）后的新字符串。模式可以是一个字符串或者一个正则表达式，替换值可以是一个字符串或者一个每次匹配都要调用的回调函数。
 * `search(/RegExpress/flags)`方法执行正则表达式和 String 对象之间的一个搜索匹配。
 * `split(/RegExpress/flags)` 方法使用指定的分隔符字符串将一个 String 对象分割成子字符串数组，以一个指定的分割字串来决定每个拆分的位置。
+
+## 词法
 
 ### 字符类别（Character Classes）
 
@@ -103,7 +105,7 @@ js 不支持后顾
 * `(?<=y)x` x 只有在 y 后面才匹配。
 * `(?<!y)x` x 只有不在 y 后面才匹配。
 
-### 常用示例
+## 常用示例
 
 1. 数字：`^[0-9]*$`
 2. n 位的数字：`^\d{n}$`
@@ -170,5 +172,11 @@ js 不支持后顾
 54. IP 地址：`\d+\.\d+\.\d+\.\d+` \(提取 IP 地址时有用\)
 55. IP 地址：`((?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d))`
 
+## 参考
 
+可视化
+
+{% embed url="https://jex.im/regulex/\#!flags=&re=%5E\(a%7Cb\)\*%3F%24" %}
+
+[https://regexper.com/](https://regexper.com/)
 
