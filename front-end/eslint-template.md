@@ -1,10 +1,10 @@
 # eslint 配置模板
 
-## 为啥写这个
+## 模板
 
 每次配置都挺费时间的，还得去老项目里捞，写了个针对不同类型的初始设置
 
-## eslint
+### eslint
 
 * 安装
 
@@ -32,7 +32,7 @@ module.exports = {
 }
 ```
 
-## eslint + standard
+### eslint + standard
 
 eslint 提供一套基于 standard 的格式化规范，具体可查看[https://standardjs.com/](https://standardjs.com/)，其团队也提供一个叫 [standard](https://www.npmjs.com/package/standard) 的工具，但是在我看来还是配合 vscode + eslint 食用更加
 
@@ -70,7 +70,7 @@ module.exports = {
 }
 ```
 
-## eslint + prettier
+### eslint + prettier
 
 prettier 和 eslint 配合食用，强迫症很舒服
 
@@ -144,7 +144,7 @@ module.exports = {
 }
 ```
 
-## eslint + prettier + typescript
+### eslint + prettier + typescript
 
 * 安装
 
@@ -189,7 +189,7 @@ module.exports = {
 }
 ```
 
-## eslint + prettier + react
+### eslint + prettier + react
 
 * 安装
 
@@ -232,7 +232,7 @@ module.exports = {
 }
 ```
 
-## eslint + prettier + react + typescript
+### eslint + prettier + react + typescript
 
 * 安装
 
@@ -285,52 +285,6 @@ module.exports = {
         'plugin:react-hooks/recommended',
     ],
     plugins: ['@typescript-eslint'],
-}
-```
-
-## eslint + prettier + vue \(待定\)
-
-* 安装
-
-```text
-# eslint 部分
-npm install --save-dev eslint
-# or
-yarn add -D eslint
-
-# prettier 部分
-npm install --save-dev prettier eslint-plugin-prettier eslint-config-prettier
-# or
-yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
-
-# vue 部分
-npm install --save-dev eslint-plugin-vue
-# or
-yarn add -D eslint-plugin-vue
-
-# ALL
-npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-vue
-# or
-yarn add -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-vue
-```
-
-* 配置
-
-```javascript
-module.exports = {
-    env: {
-        browser: true,
-        es2020: true,
-        node: true,
-    },
-    extends: ['eslint:recommended', 'plugin:vue/recommended', 'plugin:prettier/recommended'],
-    parserOptions: {
-        ecmaVersion: 11,
-        sourceType: 'module',
-    },
-    rules: {
-        'vue/html-indent': 0,
-    },
 }
 ```
 
