@@ -8,6 +8,7 @@
 * [命令行通配符](front-end/command-line-wildcard.md)
 * [正则匹配](front-end/reg-exp.md)
 * [eslint 配置模板](front-end/eslint-template.md)
+* [js构建打包工具优化及未来](front-end/js-gou-jian-da-bao-gong-ju-you-hua-ji-wei-lai.md)
 
 ## 基础知识 <a id="basic"></a>
 
