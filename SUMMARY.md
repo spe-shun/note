@@ -17,4 +17,5 @@
 ## 其他 <a id="other"></a>
 
 * [vscode](other/vscode.md)
+* [chrome 添加 open search](other/chrome-open-search.md)
 
