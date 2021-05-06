@@ -4,8 +4,9 @@
 
 ## 前端新事物 <a id="front-end"></a>
 
-* [tailwindcss](front-end/tailwindcss.md)
-* [js构建打包工具优化及未来](front-end/js-pack.md)
+* [tailwindcss](front-end/tailwindcss/README.md)
+  * [基于已有 webpack 配置引入](front-end/tailwindcss/tailwindcss-init-webpack.md)
+* [js 构建打包工具优化及未来](front-end/js-pack.md)
 * [D3.js](front-end/d3js/README.md)
   * [SVG](front-end/d3js/svg.md)
 
