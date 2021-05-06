@@ -1,8 +1,15 @@
+---
+description: >-
+  参考链接：https://stackoverflow.com/questions/7387188/enable-pressing-tab-to-search-in-google-chrome-on-my-website
+---
+
 # chrome 添加 open search
 
 很多站点都有按 tab 直接搜索，例如 google.com v.qq.com bilibili.com
 
-参考链接：[https://stackoverflow.com/questions/7387188/enable-pressing-tab-to-search-in-google-chrome-on-my-website](https://stackoverflow.com/questions/7387188/enable-pressing-tab-to-search-in-google-chrome-on-my-website)
+![CHROME &#x8F93;&#x5165; GOOGLE.COM&#xFF0C;&#x6309;  TAB](../.gitbook/assets/image.png)
+
+
 
 ## 添加方法
 
