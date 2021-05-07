@@ -49,8 +49,7 @@ STEP 2：webpack 增加 tailwindcss 插件
 // postcss.config.js
 module.exports = {
   plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
+    tailwindcss: {}
   }
 }
 
