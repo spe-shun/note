@@ -124,3 +124,9 @@ module.exports = {
 }
 ```
 
+### vscode  intellisense 插件
+
+{% embed url="https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss" %}
+
+
+
