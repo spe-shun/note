@@ -7,8 +7,8 @@
 * [tailwindcss](front-end/tailwindcss/README.md)
   * [基于已有 webpack 配置引入](front-end/tailwindcss/tailwindcss-init-webpack.md)
 * [js 构建打包工具优化及未来](front-end/js-pack.md)
-* [D3.js](front-end/d3js/README.md)
-  * [SVG](front-end/d3js/svg.md)
+* [D3.js](front-end/d3-js/README.md)
+  * [SVG](front-end/d3-js/d3-svg.md)
 
 ## 基础知识 <a id="basic"></a>
 
@@ -16,7 +16,7 @@
 * [正则匹配](basic/reg-exp.md)
 * [命令行通配符](basic/command-line-wildcard.md)
 * [css 规范](basic/css-rules.md)
-* [网络协议](basic/wang-luo-xie-yi.md)
+* [网络协议](basic/network-basic.md)
 
 ## 其他 <a id="other"></a>
 
