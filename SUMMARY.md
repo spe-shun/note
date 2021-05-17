@@ -12,10 +12,11 @@
 
 ## 基础知识 <a id="basic"></a>
 
+* [CSS](basic/css/README.md)
+  * [css 规范](basic/css/css-rules.md)
 * [eslint 配置模板](basic/eslint-template.md)
 * [正则匹配](basic/reg-exp.md)
 * [命令行通配符](basic/command-line-wildcard.md)
-* [css 规范](basic/css-rules.md)
 * [网络协议](basic/network-basic.md)
 
 ## 其他 <a id="other"></a>
