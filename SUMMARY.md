@@ -21,6 +21,6 @@
 
 ## 其他 <a id="other"></a>
 
-* [vscode](other/vscode.md)
+* [快捷键](other/shortcuts.md)
 * [chrome 添加 open search](other/chrome-open-search.md)
 

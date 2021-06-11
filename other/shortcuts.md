@@ -1,6 +1,8 @@
-# vscode
+# 快捷键
 
-## [快捷键](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+## vscode 快捷键
+
+![](../.gitbook/assets/vscode-shortcuts.png)
 
 | description | key |
 | :--- | :--- |
